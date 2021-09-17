@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ruda&family=Vidaloka&display=swap");
+
+h1 {
+  font-family: "Vidaloka", serif;
+  font-size: 85px;
+  color: #4c4c6d;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-family: "Ruda", sans-serif;
+  color: #4c4c6d;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4b3869;
+  color: #fff8e5;
+  text-align: center;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 50%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 200px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.secciones {
+  position: relative;
+  left: 10px;
+  width: 100%;
+  background-color: #63b4b8;
+  color: white;
+  text-align: center;
+}
+
+h3,
+.card {
+  text-align: center;
+  font-family: "Ruda", sans-serif;
+  color: #4c4c6d;
+}
+.card-img-top {
+  width: 50%;
+  height: 15vw;
+  object-fit: scale-down;
+}
+body {
+  margin: 5% auto;
+  background: rgb(224,251,254);
+  background: linear-gradient(90deg, rgba(224,251,254,1) 12%, rgba(215,251,245,1) 33%, rgba(230,255,253,1) 58%, rgba(221,251,250,1) 76%, rgba(204,255,255,1) 87%, rgba(204,255,254,1) 100%);
+  );
+}
+
+.links {
+  margin: 5% auto;
+}
+a.footer {
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: #c487ff;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  display: block;
+  margin: 20px;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+  font-family: "Ruda", sans-serif;
+  font-size: 17px;
+}
+.form-group {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Ruda", sans-serif;
+  font-size: 25px;
+}
+.correocontacto {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Ruda", sans-serif;
+  font-size: 25px;
+}
+.fotocv {
+  margin: 30px;
+  max-width: 100px;
+  margin: auto;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+}
+.stcv {
+  font-family: "Ruda", sans-serif;
+  font-size: 17px;
+  color: #4c4c6d;
+}
